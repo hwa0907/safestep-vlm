@@ -1,0 +1,14 @@
+# Apple Silicon 맥 (MLX) — 2026-11-11 M5 16GB / Python 3.13 에서 동작 확인한 버전
+mlx-vlm==0.7.12
+mlx==0.32.4
+transformers==5.22.2
+torch==2.15.0          # YOLO / Depth Anything (MPS)
+ultralytics==8.4.210
+opencv-python-headless
+gradio==6.31.0
+sacrebleu>=2.4
+matplotlib
+pillow
+numpy
+tqdm
+datasets               # 05단계 HF 업로드 시에만

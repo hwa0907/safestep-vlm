@@ -1,0 +1,18 @@
+{
+  "model": "/Users/kyounghwa/Library/Application Support/Claude/scratch-workspaces/c7a723ff-100c-49d1-b8e1-53fee7886b8e/637304ea-4dd4-4f52-b098-514350fae260/scratch-2026-11-04-b48e37/safestep-vlm/models/qwen25vl-3b-4bit-bf16",
+  "splits": "data/splits",
+  "frames": "data/frames",
+  "work": "data/mlx_sft",
+  "out": "outputs/mlx-lora-r16",
+  "epochs": 2,
+  "iters": 2264,
+  "lr": 0.0001,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "batch": 1,
+  "grad_accum": 8,
+  "long_side": 448,
+  "train_vision": false,
+  "seed": 42
+}

@@ -1,0 +1,26 @@
+# 환경·모델 가중치
+.venv/
+models/
+*.pt
+*.safetensors
+__pycache__/
+.DS_Store
+.claude/
+*.log
+
+# AI Hub 원본 이미지·원본 박스 주석은 재배포 금지(약관 5항) → 올리지 않음
+data/*
+!data/splits/
+!data/reviewed.jsonl
+!data/crosswalk.jsonl
+outputs/*
+!outputs/eval/
+!outputs/figures/
+outputs/figures/05_cases_success.png
+outputs/figures/06_cases_failure.png
+!outputs/mlx-lora-r16/
+outputs/mlx-lora-r16/*
+!outputs/mlx-lora-r16/adapter_config.json
+!outputs/mlx-lora-r16/loss_curve.png
+!outputs/mlx-lora-r16/train_args.json
+!outputs/mlx-lora-r16/train_log.txt

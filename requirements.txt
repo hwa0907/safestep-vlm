@@ -1,0 +1,16 @@
+# torch / torchvision 은 Colab 기본 설치본 사용 (로컬은 https://pytorch.org 에서 CUDA 버전에 맞게 설치)
+# Qwen2.5-VL은 transformers 4.49 이상 필요. 아래는 동작 확인용 고정 버전 — 오류 시 troubleshooting 참고
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.6.0
+bitsandbytes==0.45.5
+datasets>=3.0
+ultralytics>=8.3
+opencv-python-headless>=4.9
+pillow
+numpy
+tqdm
+matplotlib
+sacrebleu>=2.4
+gradio>=4.44
+gTTS>=2.5
